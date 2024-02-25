@@ -1,0 +1,42 @@
+header {
+  margin-top:0;
+  margin-left:0
+}
+#main {
+  display: flex;
+  justify-content: center;
+}
+div {
+  width: auto;
+  margin: 60px;
+  margin-top: 0;
+}
+li {
+  width: 530px;
+  background: aliceblue;
+  padding: 25px;
+  margin: 5px;
+  list-style: none;
+}
+input:focus {
+  padding: -5px;
+  border-radius: none;
+}
+input {
+  padding: 8px;
+  border: solid antiquewhite 2px;
+  margin-bottom: 8px;
+  width: 180px;
+  font-size: 16px;
+}
+button {
+  border: none;
+  width: 200px;
+  padding: 8px;
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+h1, h3 {
+  color:rgb(65, 65, 73)
+}
