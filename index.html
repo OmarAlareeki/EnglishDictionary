@@ -3,17 +3,19 @@
     <title>English Dictionary</title>
     <link rel= "stylesheet" href="style.css"></link>
     <header>
+        <h1>Welcome to your Smart English Dictionary</h1>
+        <h1>English Dictionary</h1>
+        <input 
+        onclick="clearList()"
+        type="text" 
+        name="word" 
+        value=""
+        id="word"
+        ><br>
+      <button onclick="fetchWord(document.getElementById('word').value)">search</button></br>
     </header>
     <body>
-        <h1>English Dictionary</h1>
-            <input 
-            onclick="clearList()"
-            type="text" 
-            name="word" 
-            value=""
-            id="word"
-            ><br>
-          <button onclick="fetchWord(document.getElementById('word').value)">search</button></br>
+      
           <!-- <button onClick="clearList()">clear</button> -->
           <div id="main">
             <div id="listContainer"></div>

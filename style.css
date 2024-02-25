@@ -1,6 +1,12 @@
 header {
-  margin-top:0;
-  margin-left:0
+  margin: -8px;
+  background: rgb(187, 175, 175);
+  background-repeat: repeat-y;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 #main {
   display: flex;
@@ -21,6 +27,7 @@ li {
 input:focus {
   padding: -5px;
   border-radius: none;
+  border: none;
 }
 input {
   padding: 8px;
