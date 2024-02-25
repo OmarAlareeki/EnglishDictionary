@@ -17,8 +17,6 @@ header {
 div {
   width: auto;
   margin: 60px;
-  margin-top: 0;
-  font-size: x-large;
 }
 li {
   width: 530px;
@@ -26,6 +24,7 @@ li {
   padding: 25px;
   margin: 5px;
   list-style: none;
+  font-size: 150%;
 }
 input:focus {
   padding: -5px;
