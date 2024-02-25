@@ -16,7 +16,6 @@ header {
 }
 div {
   width: auto;
-  margin: 60px;
 }
 li {
   width: 530px;
@@ -26,29 +25,53 @@ li {
   list-style: none;
   font-size: 150%;
 }
-input:focus {
-  padding: -5px;
-  border-radius: none;
-  border: none;
-}
 input {
   padding: 15px;
   border: solid antiquewhite 2px;
-  margin-bottom: 8px;
   width: 280px;
   font-size: 36px;
   text-align: center;
+  color: rgb(65, 65, 73);
+}
+input:focus {
+  padding: -5px;
+  border-radius: none;
+  outline: none;
 }
 button {
   border: none;
-  width: 200px;
   padding: 8px;
   text-align: left;
-  font-size: 36px;
+  font-size: 50px;
   margin-bottom: 2px;
-  background: none;
+  color: #282d16;
+  background: #ffff39
 }
 h1,
 h3 {
   color: rgb(65, 65, 73);
+}
+
+
+/* mobile view */
+@media only screen and (max-width: 600px) {
+  /* body {
+    background-color: rgb(237, 249, 253);
+  } */
+  #input-div{
+    display: flex;
+  }
+  input {
+    width: 350px;
+    border: none;
+  }
+  li {
+    font-size: 18px;
+    width: 400px
+  }
+  header {
+     margin-bottom: 10px;
+     font-size: large;
+     text-align: center;
+  }
 }
