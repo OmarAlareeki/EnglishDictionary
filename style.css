@@ -1,12 +1,14 @@
 header {
   margin: -8px;
-  background: rgb(187, 175, 175);
+  background: rgb(255, 245, 245);
   background-repeat: repeat-y;
   height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-size: x-large;
 }
 #main {
   display: flex;
@@ -34,16 +36,19 @@ input {
   border: solid antiquewhite 2px;
   margin-bottom: 8px;
   width: 180px;
-  font-size: 16px;
+  font-size: 36px;
+  text-align: center;
 }
 button {
   border: none;
   width: 200px;
   padding: 8px;
   text-align: left;
-  font-size: 16px;
+  font-size: 36px;
   margin-bottom: 2px;
+  background: none;
 }
-h1, h3 {
-  color:rgb(65, 65, 73)
+h1,
+h3 {
+  color: rgb(65, 65, 73);
 }

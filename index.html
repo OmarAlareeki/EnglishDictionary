@@ -2,17 +2,22 @@
 <html>
     <title>English Dictionary</title>
     <link rel= "stylesheet" href="style.css"></link>
+    <script src="https://kit.fontawesome.com/b5a383e00c.js" crossorigin="anonymous"></script>
     <header>
         <h1>Welcome to your Smart English Dictionary</h1>
-        <h1>English Dictionary</h1>
-        <input 
-        onclick="clearList()"
-        type="text" 
-        name="word" 
-        value=""
-        id="word"
-        ><br>
-      <button onclick="fetchWord(document.getElementById('word').value)">search</button></br>
+        <h3>English Dictionary</h3>
+        <div>
+            <input 
+            onclick="clearList()"
+            type="text" 
+            name="word" 
+            value=""
+            id="word"
+            >
+          <button onclick="fetchWord(document.getElementById('word').value)">
+            <i class="fa-solid fa-circle-chevron-right"></i>
+        </button>
+        </div>
     </header>
     <body>
       
