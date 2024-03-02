@@ -32,7 +32,7 @@ input {
   border-radius: 15px 0px 0px 150px;
 }
 input:focus {
-  padding: -5px;
+  padding: -15px;
   border-radius: none;
   outline: none;
 }
