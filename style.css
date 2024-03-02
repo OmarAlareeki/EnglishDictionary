@@ -66,8 +66,10 @@ ul {
     display: flex;
   }
   input {
-    width: 350px;
+    padding: 26px;
     border: none;
+    width: 340px;
+    font-size: 45px;
   }
   li {
     font-size: 18px;
