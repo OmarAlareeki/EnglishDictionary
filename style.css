@@ -14,8 +14,8 @@ header {
   display: flex;
   justify-content: center;
 }
-div {
-  width: auto;
+#input-div {
+  display: flex;
 }
 li {
   width: 530px;
@@ -27,11 +27,12 @@ li {
 }
 input {
   padding: 15px;
-  border: solid antiquewhite 2px;
+  border: none;
   width: 280px;
   font-size: 36px;
   text-align: center;
-  color: rgb(65, 65, 73);
+  color: rgb(217, 217, 217);
+  background: #2f2f2f;
 }
 input:focus {
   padding: -5px;
@@ -40,18 +41,21 @@ input:focus {
 }
 button {
   border: none;
-  padding: 8px;
   text-align: left;
   font-size: 50px;
-  margin-bottom: 2px;
-  color: #282d16;
-  background: #ffff39
+  color: #2f2f2f;
+  background: #b6dae3;
 }
 h1,
 h3 {
   color: rgb(65, 65, 73);
 }
-
+#listContainer {
+  margin-top: 20px;
+}
+ul {
+  background: #b6dae3;
+}
 
 /* mobile view */
 @media only screen and (max-width: 600px) {
@@ -71,7 +75,11 @@ h3 {
   }
   header {
      margin-bottom: 10px;
-     font-size: large;
+     font-size: x-large;
      text-align: center;
+  }
+  button {
+    font-size: 70px;
+    background-color: #d9d9d9;
   }
 }

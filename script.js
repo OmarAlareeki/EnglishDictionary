@@ -1,6 +1,7 @@
 var marApiUrl =
   "https://www.dictionaryapi.com/api/v3/references/collegiate/json/";
 var apiKey = "eb36528a-241a-49e3-bfbd-7a7ccdd8967e";
+var word = "";
 
 // list of the current words with their description.
 var list = [

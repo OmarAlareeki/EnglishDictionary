@@ -4,8 +4,7 @@
     <link rel= "stylesheet" href="style.css"></link>
     <script src="https://kit.fontawesome.com/b5a383e00c.js" crossorigin="anonymous"></script>
     <header>
-        <h1>Welcome to </br> your Smart English Dictionary</h1>
-        <h3>English Dictionary</h3>
+        <h1>WELCOME TO</b><i class="fa-solid fa-book-bookmark"></i> <h1>your Smart English Dictionary</h1></h1>
         <div id="input-div">
             <input 
             onclick="clearList()"
@@ -13,15 +12,16 @@
             name="word" 
             value=""
             id="word"
+            placeholder="search here..."
             >
           <button onclick="fetchWord(document.getElementById('word').value)">
-            <i class="fa-solid fa-circle-chevron-right"></i>
+            <!-- <i class="fa-solid fa-circle-chevron-right"></i> -->
+            <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
         </button>
         </div>
     </header>
     <body>
       
-          <!-- <button onClick="clearList()">clear</button> -->
           <div id="main">
             <div id="listContainer"></div>
         </div>
