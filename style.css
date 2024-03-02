@@ -62,9 +62,9 @@ ul {
 
 /* mobile view */
 @media only screen and (max-width: 600px) {
-  /* body {
-    background-color: rgb(237, 249, 253);
-  } */
+  body {
+    background-color: rgb(18, 53, 65);
+  }
   #input-div{
     display: flex;
   }
