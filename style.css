@@ -31,11 +31,11 @@ input {
   background: #2f2f2f;
   border-radius: 15px 0px 0px 150px;
 }
-/* input:focus {
+input:focus {
   padding: -5px;
   border-radius: none;
   outline: none;
-} */
+}
 button {
   border: none;
   text-align: left;
