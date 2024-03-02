@@ -86,4 +86,7 @@ ul {
     font-size: 40px;
     background-color: #d9d9d9;
   }
+  input:focus {
+    font-size: 20px;
+  }
 }
