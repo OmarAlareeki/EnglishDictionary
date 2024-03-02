@@ -63,26 +63,26 @@ ul {
 /* mobile view */
 @media only screen and (max-width: 600px) {
   body {
-    background-color: rgb(18, 53, 65);
+    margin: -1px;
   }
   #input-div{
     display: flex;
   }
   input {
-    padding: 26px;
+    padding: 5px;
     border: none;
     font-size: 45px;
   }
   li {
     font-size: 18px;
-    width: 300px
+    width: 270px
   }
   header {
      margin-bottom: 10px;
      text-align: center;
   }
   button {
-    font-size: 70px;
+    font-size: 60px;
     background-color: #d9d9d9;
   }
 }
