@@ -28,10 +28,11 @@ input {
   padding: 15px;
   border: none;
   width: 280px;
-  font-size: 36px;
+  font-size: 30px;
   color: rgb(217, 217, 217);
   background: #2f2f2f;
   border-radius: 15px 0px 0px 150px;
+  text-align: center;
 }
 input:focus {
   padding: -15px;
