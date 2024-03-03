@@ -71,11 +71,10 @@ ul {
     padding: 5px;
     border: none;
     font-size: 25px;
-    width: 100px;
     background-color:transparent;
     border: 0px solid;
     height:30px;
-    width:260px;
+    width:100px;
   }
 
   li {
