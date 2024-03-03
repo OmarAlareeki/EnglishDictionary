@@ -79,8 +79,9 @@ ul {
     width: 270px
   }
   header {
-     text-align: center;
-     margin: -1;
+    text-align: center;
+    width: 104%;
+    margin: -7px;
   }
   button {
     font-size: 30px;
