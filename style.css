@@ -14,6 +14,9 @@ header {
 }
 #input-div {
   display: flex;
+  box-shadow: 3px 16px 20px -3px #b6dae3;
+  background: #b6dae3;
+  border-radius: 0px 0px 0px 10px;
 }
 li {
   width: 530px;
@@ -43,7 +46,6 @@ button {
   font-size: 40px;
   color: #2f2f2f;
   background: #b6dae3;
-  border-radius: 0px 15px 15px 0px;
 }
 h1,
 h3 {
@@ -70,8 +72,8 @@ ul {
     border: none;
     font-size: 25px;
     border: 0px solid;
-    height:30px;
-    width:200px;
+    height: 35px;
+    width: 220px;
   }
 
   li {
