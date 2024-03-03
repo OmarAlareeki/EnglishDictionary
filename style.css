@@ -72,7 +72,12 @@ ul {
     border: none;
     font-size: 25px;
     width: 180px;
+    background-color:transparent;
+    border: 0px solid;
+    height:30px;
+    width:260px;
   }
+
   li {
     font-size: 18px;
     width: 270px
