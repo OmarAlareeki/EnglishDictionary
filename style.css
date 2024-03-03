@@ -66,9 +66,9 @@ ul {
     display: flex;
   }
   input {
-    padding: 5px;
+    padding: 8px;
     border: none;
-    /* font-size: 25px; */
+    font-size: 25px;
     border: 0px solid;
     height:30px;
     width:200px;
