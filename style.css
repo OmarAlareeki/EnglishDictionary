@@ -80,6 +80,7 @@ ul {
   }
   header {
      text-align: center;
+     margin: -1;
   }
   button {
     font-size: 30px;
